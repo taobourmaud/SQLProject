@@ -107,7 +107,7 @@ VALUES
 ('VO'),
 ('3D'),
 ('4DX')
-
+;
 -- Seat 
 INSERT INTO
     Seat (Seat_categoryId)
