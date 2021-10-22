@@ -11,7 +11,7 @@ INSERT INTO Producer (ProducerLastName, ProducerFirstName, ProducerNationality) 
 ('Zemeckis', 'Robert', 'American'),
 ('Jackson', 'Peter', 'New Zealand'),
 ('Leone', 'Sergio', 'Italian')
-
+;
 -- Movie
 
 INSERT INTO Movie (MovieTitle, ReleaseDate, Duration, MovieType, ProducerId) VALUES 
@@ -25,7 +25,7 @@ INSERT INTO Movie (MovieTitle, ReleaseDate, Duration, MovieType, ProducerId) VAL
 ('The Lord of the Rings: The Return of the King', '1/12/2003', 12060, 'Action, adventure & fantasy', 8), 
 ('The Dark Knight', '16/07/2008', 9120, 'Action, detective & thriller', 3), 
 ('The Good, The Bad and The Ugly', '23/12/1966', 10740, 'Western & adventure', 9)
-
+;
 -- Actor 
 
 INSERT INTO Actor (ActorLastName, ActorFirstName, ActorCountry, BirthDate) VALUES
@@ -49,7 +49,7 @@ INSERT INTO Actor (ActorLastName, ActorFirstName, ActorCountry, BirthDate) VALUE
 ('Ledger', 'Heath', 'Australian', '04/04/1979'),
 ('Eastwood', 'Clint', 'American', '31/05/1930'),
 ('Wallach', 'Eli', 'American', '07/12/1915')
-
+;
 --Seance
 
 INSERT INTO Seance ( SeanceDate, SeanceHour,Seance_categoryId ,MovieId)
@@ -88,7 +88,7 @@ VALUES
 
 ('16/10/2021', '20:30:00', 3,10),
 ('18/10/2021', '12:30:00', 4,10)
-
+;
 -- Seat_category
 
 INSERT INTO Seat_category (SeatType) VALUES
@@ -98,7 +98,7 @@ INSERT INTO Seat_category (SeatType) VALUES
 ('Under 26'),
 ('Senior'),
 ('Handicapped')
-
+;
 -- Seance_category 
 INSERT INTO Seance_category (SeanceType) 
 VALUES 
@@ -114,7 +114,7 @@ INSERT INTO
 VALUES
     ('1'),
     ('1'),('2'),('3'),('4'),('5'),('6'),('3'),('5'),('1')
-
+;
  -- Price 
 INSERT INTO Price (Seance_categoryId, Seat_categoryId, Cost) 
 VALUES
@@ -153,7 +153,7 @@ VALUES
 ('6', '3', '9'),
 ('6', '4', '15'),
 ('6', '5', '20')
-
+;
 
 --Role 
 INSERT INTO Role (MovieId, ActorId, RoleName) 
@@ -178,7 +178,7 @@ VALUES
 ('9', '18', 'Joker'),
 ('10', '19', 'Blondie'),
 ('10', '20', 'Tuco Benedicto')
-
+;
 --- Booking
 INSERT INTO Booking (SeatId, SeanceId, SpectatorName) VALUES
 ('1', '1', 'Kanoé'),
