@@ -14,17 +14,17 @@ INSERT INTO Producer (ProducerLastName, ProducerFirstName, ProducerNationality) 
 
 -- Movie
 
-INSERT INTO Movie (MovieTitle, ReleaseDate, Duration, MovieType, ProducerId) VALUES 
-('Fight Club', '10/09/1999', 8340, 'Drama', 1),
-('Pulp Fiction', '10/09/1994', 9240, 'Gangster & comedie', 2), 
-('Interstellar', '5/11/2014', 10140, 'S-F, drama & adventure', 3), 
-('2001: A Space Odyssey', '3/04/1968', 9600, 'Adventure & S-F', 4), 
-('Blade Runner', '25/06/1982', 7020, 'S-F & thriller', 5), 
-('The Godfather', '24/03/1972', 10500, 'Detective & Drama', 6),
-('Forrest Gump', '6/07/1994', 8520, 'Drama & romance', 7),
-('The Lord of the Rings: The Return of the King', '1/12/2003', 12060, 'Action, adventure & fantasy', 8), 
-('The Dark Knight', '16/07/2008', 9120, 'Action, detective & thriller', 3), 
-('The Good, The Bad and The Ugly', '23/12/1966', 10740, 'Western & adventure', 9)
+    INSERT INTO Movie (MovieTitle, ReleaseDate, Duration, MovieType, ProducerId) VALUES 
+    ('Fight Club', '10/09/1999', 8340, 'Drama', 1),
+    ('Pulp Fiction', '10/09/1994', 9240, 'Gangster & comedie', 2), 
+    ('Interstellar', '5/11/2014', 10140, 'S-F, drama & adventure', 3), 
+    ('2001: A Space Odyssey', '3/04/1968', 9600, 'Adventure & S-F', 4), 
+    ('Blade Runner', '25/06/1982', 7020, 'S-F & thriller', 5), 
+    ('The Godfather', '24/03/1972', 10500, 'Detective & Drama', 6),
+    ('Forrest Gump', '6/07/1994', 8520, 'Drama & romance', 7),
+    ('The Lord of the Rings: The Return of the King', '1/12/2003', 12060, 'Action, adventure & fantasy', 8), 
+    ('The Dark Knight', '16/07/2008', 9120, 'Action, detective & thriller', 3), 
+    ('The Good, The Bad and The Ugly', '23/12/1966', 10740, 'Western & adventure', 9)
 
 -- Actor 
 
