@@ -109,11 +109,11 @@ VALUES
 ('4DX')
 ;
 -- Seat 
-INSERT INTO
-    Seat (Seat_categoryId)
-VALUES
-    ('1'),
-    ('1'),('2'),('3'),('4'),('5'),('6'),('3'),('5'),('1')
+    INSERT INTO
+        Seat (Seat_categoryId)
+    VALUES
+        ('1'),
+        ('1'),('2'),('3'),('4'),('5'),('6'),('3'),('5'),('1')
 ;
  -- Price 
 INSERT INTO Price (Seance_categoryId, Seat_categoryId, Cost) 
