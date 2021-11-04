@@ -85,7 +85,7 @@ GROUP BY Actor
 ;
 
 SELECT * FROM MoviePerActor
-
+;
 -- 10
 
 CREATE TRIGGER reserve
