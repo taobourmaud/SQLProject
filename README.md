@@ -64,10 +64,10 @@ Voici maintenant les résultat obtenus pour chaque requêtes :
 ![requête 6](./Images/Requete6.PNG)
 
 - Requête 7 : *Donner les noms et prénoms des réalisateurs qui ont travaillé avec l’acteur dont le nom est donné*   
-![requête 7](./Images/requete7.PNG)
+![requête 7](./Images/Requete7.PNG)
 
 - Requête 8 : *Donner le classement des acteurs selon le nombre de rôle réalisés par ordre décroissant*   
-![requête 8](./Images/requete8.PNG)
+![requête 8](./Images/Requete8.PNG)
 
 - Requête 9 : *Réaliser une vue(View) contenant pour chaque acteur le nombre de séance où l’on a pu voir des films dans lequel il a participé. Afficher le contenu de la vue.*
     - Etape 1 : *Réaliser une vue(View) contenant pour chaque acteur le nombre de séance où l’on a pu voir des films dans lequel il a participé.*   
